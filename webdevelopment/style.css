@@ -1,0 +1,8 @@
+#paragraph {font-style: italic;}
+.paragraph {color: #0000FF;}
+div{
+    background-color:pink;
+    border:5px solid blue;
+    padding:10px;
+    margin:20px;
+}
