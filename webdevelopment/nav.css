@@ -28,7 +28,7 @@ li:hover ul {
     display: block;
     position: absolute;
     left: 300px;
-    background-color: lightblue
+    background-color: lightblue;
     margin: 0;
 }
 li:hover ul li a:link{
