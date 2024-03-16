@@ -1,29 +1,93 @@
-#paragraph {font-style: italic;}
-.paragraph {color: #0000FF; padding-top: 60px}
-div{
-    background-color:pink;
-    border:5px solid blue;
-    padding:10px;
-    margin:20px;
-}
-p{
-    text-indent: 40px;
-    margin:20px;
-}
-body{
-    margin: 10px;
-}
-main{
-    width: 800px;
-    margin: 20px;        /*all four sides*/
-    padding: 10px;       /*all four sides*/
-}
-h1{
-padding: 40px;
-}
-ul{
-    border: 1px solid black;
-    padding: 10px;
-    background-color: lightblue;
+header {
+    display: inline;
+    vertical-align:center;
 }
 
+h3 {color: #560183}
+h4 {color: #560183}
+
+@font-face { 
+
+    font-family: ultraregular; 
+    
+    src: url(ultraregular.ttf); 
+    
+    }
+    blockquote {font-family: ultraregular, serif; }
+
+.hangingindent {
+    padding-left: 40px ;
+    text-indent: -22px ;
+  }
+/* Grid layout in desktop view*/
+  @media screen and (min-width: 800px) {
+    img {
+        max-width: 100%;
+        text-align: left;
+    }
+    .grid {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "item1 item2"
+       
+    }
+.item1 {
+    grid-area: item1;
+    padding-top: 20px;
+    padding-left: 10px;
+    width: 80%;
+    height: auto;
+  }
+   
+    }
+.item2 {
+    grid-area: item2;
+    padding-top: 20px;
+    padding-left: 10px;
+    }
+.item3 {
+    grid-area: item3;
+   justify-self: left;
+   padding-left: 10px;
+    }
+.item4 {
+    grid-area: item4;
+    justify-self: center;
+    padding-left: 10px;
+    }
+/* Grid layout in desktop view*/
+@media screen and (max-width: 1300px) {
+    .grid {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "item1"
+            "item2";
+           }
+
+    .item1 {
+        grid-area: item1;
+        justify-self: center;
+        padding-left: 10px;
+      }
+       
+    img {
+        max-width: 75%;
+        padding-left: 10px;
+     }
+    .item2{
+        grid-area: item2;
+        padding-left: 10px;
+       
+        }
+    }
+          
+  .active {
+    background-color:lightblue
+    color: blue
+}
