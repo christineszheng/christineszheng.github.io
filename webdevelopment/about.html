@@ -24,13 +24,14 @@ Tested: Feb 9, 2024; Passed on Chrome Browsers
 </head>
 <body>
     <nav>
+      <label id="hamburger">&#9776;</label>
         <ul>
-            <li><a href="//christineszheng.github.io/webdevelopment/index.html">Home</a></li>
+            <li><a class="active" href="//christineszheng.github.io/webdevelopment/index.html">Home</a></li>
           <li><a href="//christineszheng.github.io/webdevelopment/about.html">About</a></li>
           <li><a href="//christineszheng.github.io/webdevelopment/resources.html">Resources</a></li>
           <li><a href="#contact.html">Contact</a></li>
           <li><a href="#learn.html">Learn</a>
-                <ul>
+                <ul id="mobileHide">
                     <li><a href="#">Link 1</a></li>
                     <li><a href="#">Link 2</a></li>
                     <li><a href="#">Link 3</a></li>
@@ -46,7 +47,9 @@ Tested: Feb 9, 2024; Passed on Chrome Browsers
     <h1>Christine Zheng</h1>
     </header>
     <main>
-        <h3>Educator Credentials Content Page</h3>
+      <div class="grid">
+      <div class="item1"><img src="IMG_7220.jpg" alt="This is me"> </div>
+        <div class="item2"><h3>Educator Credentials Content Page</h3>
         <p><em>Hi! I’m Christine!</em> I graduated class of 2020 from New York University 
             where I got my Bachelor of Science in math education. After graduation, 
             I got my New York State teaching certification for mathematics 7-12 with 
@@ -68,7 +71,7 @@ Tested: Feb 9, 2024; Passed on Chrome Browsers
 <footer>
     <p> Author: Shunan Zheng <br>
         <a href="mailto:szmmc@umsystem.edu">szmmc@umsystem.edu</a></p>
-    <h4>&copy; 2023 Shunan Zheng</h4>
+    <p>&copy; 2023 Shunan Zheng</p>
 </footer>
 </body>
 </html>
