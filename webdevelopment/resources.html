@@ -18,35 +18,32 @@ Tested: Feb 9, 2024; Passed on Chrome Browsers
 
 -->
                <meta charset="utf-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1">
                <title>Resources</title>
                <link rel="stylesheet" href="style.css">
                 <link rel="stylesheet" href="nav.css">
-                <style>
-                  
-                    h3::first-letter {
-                    color: #ff0000;
-                    }
-                   </style>
+               
 </head>
 <body>
     <nav>
-        <ul>
-           <li><a href="//christineszheng.github.io/webdevelopment/index.html">Home</a></li>
-          <li><a href="//christineszheng.github.io/webdevelopment/about.html">About</a></li>
-          <li><a href="//christineszheng.github.io/webdevelopment/resources.html">Resources</a></li>
-          <li><a href="#contact.html">Contact</a></li>
-          <li><a href="#learn.html">Learn</a>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
+            <label id="hamburger">&#9776;</label>
+            <ul>
+                <li><a class="active" href="//christineszheng.github.io/webdevelopment/index.html">Home</a></li>
+                <li><a href="//christineszheng.github.io/webdevelopment/about.html">About</a></li>
+                <li><a href="//christineszheng.github.io/webdevelopment/resources.html">Resources</a></li>
+                <li><a href="#contact.html">Contact</a></li>
+                <li><a href="//christineszheng.github.io/webdevelopment/learn.html">Learn</a>
+                    <ul id="mobileHide">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
     <main>
     <h1>Welcome to the Resources Page</h1>
-    <h3>Resources:</h3>
+    <h3>Resources: </h3>
     <ul>
        <li>Kuta Software. "Systems of Equations Substitution Worksheet." Kuta Software, https://cdn.kutasoftware.com/Worksheets/Alg1/Systems%20of%20Equations%20Substitution.pdf.</li>
         
