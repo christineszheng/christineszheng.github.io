@@ -10,7 +10,7 @@ h4 {color: #560183}
 
     font-family: tajawal-regular; 
     
-    src: url(christineszheng.github.io/webdevelopment/Tajawal/Tajawal-Regular.ttf); 
+    src: url(/Tajawal/Tajawal-Regular.ttf); 
     
     }
     blockquote {font-family: tajawal-regular, serif; }
@@ -106,5 +106,5 @@ h1{
     padding: 20px;
     margin: 100px auto;
     box-shadow: 0px 0px 10px 2px gray;
-    background-image: url(background.png)
+    background-image: url(/background.png)
 }
