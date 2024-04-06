@@ -106,5 +106,5 @@ h1{
     padding: 20px;
     margin: 100px auto;
     box-shadow: 0px 0px 10px 2px gray;
-    background-image: url(/background.png)
+    background-image: url(/background.png);
 }
