@@ -103,6 +103,9 @@ h1{
 .nav{
     display:none;
 }
+.videoresume{
+    display: none;
+}
 }
 
 .back{
