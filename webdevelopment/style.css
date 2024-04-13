@@ -92,7 +92,7 @@ h4 {color: #560183}
         box-shadow: none !important;
         text-shadow: none !important;
         margin: 1px 1px 1px 1px!important;
-        font:serif;
+        font:times, serif;
     }
 img {
     display: none;
