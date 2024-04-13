@@ -92,7 +92,7 @@ h4 {color: #560183}
         box-shadow: none !important;
         text-shadow: none !important;
         margin: 1px 1px 1px 1px!important;
-        font:times, serif;
+        font:"Times New Roman", Times, serif;
     }
 img {
     display: none;
