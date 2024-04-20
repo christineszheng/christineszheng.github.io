@@ -52,6 +52,7 @@ h4 {color: #560183}
     padding-left: 10px;
     }
 
+
 /* Grid layout in desktop view*/
 @media screen and (max-width: 1500px) {
     .grid {
@@ -123,6 +124,14 @@ h1{
     background-image: url(background.png)
 }
 
+.contact{
+    max-width:400px;
+    height:500px;
+    padding: 20px;
+    margin: 100px auto;
+    box-shadow: 0px 0px 10px 2px gray;
+    background-image: url(background.png)
+}
 .icons img:hover {
     transform: scale(1.5);
 }
@@ -141,4 +150,6 @@ th, td{
 tr:nth-child(even){
     background-color: lightsteelblue;
 }
-
+input[type="text"], input[type="email"], textarea {
+    width: 400px;
+}
