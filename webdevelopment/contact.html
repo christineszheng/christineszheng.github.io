@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head> 
+
+<!--
+
+Title: About PageContact
+Use: For users to contact me
+
+Author: Shunan Zheng
+
+School/Term: University of Missouri, Spring 2024
+
+Developed: Feb 8, 2024
+
+Tested: Feb 9, 2024; Passed on Chrome Browsers
+
+-->
+               <meta charset="utf-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+               <title>Contact</title>
+               <link rel="stylesheet" href="style.css">
+               <link rel="stylesheet" href="nav.css">
+              <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+            </head>
+            <body>
+               <nav>
+            <label id="hamburger">&#9776;</label>
+            <ul>
+                <li><a class="active" href="//christineszheng.github.io/webdevelopment/index.html">Home</a></li>
+                <li><a href="//christineszheng.github.io/webdevelopment/about.html">About</a></li>
+                <li><a href="//christineszheng.github.io/webdevelopment/resources.html">Resources</a></li>
+                <li><a href="#contact.html">Contact</a></li>
+                <li><a href="//christineszheng.github.io/webdevelopment/learn.html">Learn</a>
+                    <ul id="mobileHide">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav><br>
+        <h1> Contact Me</h1>
+    <form action="mailto:szmmc@umsystem.edu?Subject=Educational%20Website%20Contact"method="post"enctype="text/plain">
+        <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"required><br>
+        <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"required><br>
+        <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" value="someone@missouri.edu"required>
+        <p>Message</p>
+        <form action="/action_page.php">
+            <textarea name="message" rows="10" cols="30"required>Write your message here.</textarea>
+            <br><br>
+        <input type="submit" value="Send Button">
+      </form> 
